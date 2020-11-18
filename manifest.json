@@ -1,0 +1,30 @@
+{
+    "name": "Shooter game",
+    "short_name": "Game",
+    "icons": [{
+        "src": "assets/img/characters/char_01.png",
+        "sizes": "139x167",
+        "type": "image/png"
+      },{
+        "src": "assets/img/characters/char_02.png",
+        "sizes": "110x150",
+        "type": "image/png"
+      },{
+        "src": "assets/img/characters/char_03.png",
+        "sizes": "110x146",
+        "type": "image/png"
+      },{
+        "src": "assets/img/characters/char_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },{
+        "src": "assets/img/characters/char_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#333333",
+    "theme_color": "#6200ee"
+  }
+  

@@ -1,0 +1,115 @@
+@import "lib/vars";
+@import "lib/reboot";
+@import "lib/keyframes";
+@import "lib/fontface";
+
+@import "lib/colors";
+@import "lib/typo";
+@import "lib/utils";
+
+@import "partials/layout";
+@import "partials/modals";
+
+
+$bluegreen:#085F63;
+$pinklight: #FF5959;
+
+* {
+    font-family: Iceberg;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: white;
+
+}
+
+#main_page {
+    display: flex;
+    flex-direction: column;
+    .ui {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .game {
+        flex-basis: 100%;
+        width: 100%;
+    }
+}
+
+#app{
+    .full_window {
+        background-color:$bluegreen;
+    } 
+} 
+
+#menu_page {
+    padding: 25px 50px 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        list-style: none;
+    }
+    button {
+        border-radius: 5px;
+        background-color: $pinklight;
+        color: white;
+        border: 0;
+        font-size: 2rem;
+        padding: 5px 15px 5px 15px;   
+    } 
+    .footer {
+        justify-content: center;
+    }
+}
+
+.inline_menu {
+    a {
+        text-decoration: none;
+    }
+    padding: 0;
+}
+
+#leaderboard_page {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    a{
+        text-decoration: none;
+        color: white; 
+    }
+}
+
+#settings_page {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0 50px 25px;
+    a{
+        text-decoration: none;
+        color: white; 
+    }
+}
+
+.setting_label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.holder {
+    background-color: $bluegreen;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+}
